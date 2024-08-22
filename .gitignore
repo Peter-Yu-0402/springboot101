@@ -18,6 +18,7 @@ out/
 
 # gradle.xml 파일을 제외
 .idea/gradle.xml
+.idea/uiDesigner.xml
 
 ### Eclipse ###
 .apt_generated
