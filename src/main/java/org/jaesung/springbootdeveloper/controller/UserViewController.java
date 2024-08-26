@@ -8,7 +8,8 @@ public class UserViewController {
     // 로그인 경로로 접근하면 뷰 파일을 연결하는 컨트롤러 메서드
     @GetMapping("/login")
     public String login() {
-        return "login"; // login.html를 반환한다.
+//        return "login"; // login.html를 반환한다.
+        return "oauthLogin";
     }
 
     @GetMapping("/signup")

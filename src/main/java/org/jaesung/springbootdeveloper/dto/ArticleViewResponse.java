@@ -13,6 +13,7 @@ public class ArticleViewResponse {
     private String title;
     private String content;
     private LocalDateTime createdAt;
+    private String author;
     // 유연함을 위해 ArticleListViewResponse 클래스와는 달리 final 키워드를 사용하지 않았다.
 
     public ArticleViewResponse(Article article) {
@@ -20,5 +21,6 @@ public class ArticleViewResponse {
         this.title = article.getTitle();
         this.content = article.getContent();
         this.createdAt = article.getCreatedAt();
+        this.author = article.getAuthor();
     }
 }
