@@ -45,3 +45,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 민감 정보 포함된 application.yml ###
+/src/main/resources/application.yml
